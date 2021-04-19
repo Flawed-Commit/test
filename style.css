@@ -11,7 +11,7 @@ section{
     position:relative;
     min-height: 100vh ;
     background: #111;
-    background: url(images/banner.jpg);
+    background: url(images/landing\ \(1\).jpg);
     background-size: cover;
     background-position: right;
     display: flex;
@@ -251,9 +251,24 @@ footer .footer{
         margin-bottom: 20px;
     }
 }
-
+.skill{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
 .skills .title::after{
     content: "what i know";
+}
+.skill-name{
+    font-size: 18 px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.skill-bar{
+  height 20px;
+  background-color: aquamarine;
+  border-radius: 8px;  
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
